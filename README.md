@@ -1,10 +1,10 @@
-# 👾XP-TNBOT👾
-BOT WHATSAPP TERMUX ONLY BY XP-TN
+# 👾PROF-ACC👾
+BOT WHATSAPP TERMUX ONLY BY PROF-ACC
 <p align="center">
 <img src = "https://avatars3.githubusercontent.com/u/49530313?s=460&u=086c7b0d17c5b8e906200d810e88587f5c98e349&v=4" width="320">
 </p>
 <p align="center">
-<a href="#"><img title="👾XP-TN👾" src="https://img.shields.io/badge/XP-TN-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="👾PROF-ACC👾" src="https://img.shields.io/badge/XP-TN-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/XP-TN"><img title="XP-TNNBOT" src="https://img.shields.io/badge/AUTHOR-XP-TN ID-orange.svg?style=for-the-badge&logo=github"></a>
