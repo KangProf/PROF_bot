@@ -1,17 +1,15 @@
 /*
 * "Jangan modal nama doang bro!!!"
-* (Scriptnya XP-TN)
+* (Scriptnya PROF)
 * jangan ubah semuanya kecuali nama bot instagram yt itu ajah yg lain jangan!!!
 * hargai pembuat skrip woy!!!
 * reupload izin anjg gua gua cape buat nya!!
 * ini script pribadi gua!!
 */
-const XPTN = '👾XP-TN👾'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/_xptn'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+6289655478810'; // Nomor whatsapplu cok
+const PROF = '💢PROF💢'; // Nama Bot Whatsapp
+const instagram = 'https://instagram.com/Profesor_acc'; // Nama Instagramlu cok
+const nomer = 'https://Wa.me/+6281326977165'; // Nomor whatsapplu cok
 const aktif = 'Tergantung jaringan'; // Kapan bot lu aktif
-const groupwa = 'https://chat.whatsapp.com/GDdd0I3WlF5LnMVifmS7rN'; // OFFICIAL GRUP LU 1
-const youtube = 'https://www.youtube.com/channel/UCMiQsqzWvj-zKxNlFlG_Wiw'; // OFFICIAL GRUP LU 2
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -37,9 +35,9 @@ const sellernomor = require("./lib/sellernomor.js");
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:XP Ganss\n' // full name
-            + 'ORG:Owner XPTN Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6289655478810:+62 896-5547-8810\n' // WhatsApp ID + phone number
+            + 'FN:PROF-ACC\n' // full name
+            + 'ORG:Owner PROF Bot;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6281326977165:+6281326977165\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 //
 const
@@ -74,7 +72,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] XP-TN Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] PROF Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -122,7 +120,7 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 
 }
 
-// FF XP-TN
+// FF PROF
 if(text.includes(".cek")){
 var num = text.replace(/.cek/ , "")
 var idn = num.replace("0","+62");
@@ -135,7 +133,7 @@ console.log(exists);
 conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsApp`, MessageType.text)
 }
 
-//Chat XP-TN
+//Chat PROF
 else if (text == 'assalamualaikum'){
 conn.sendMessage(id, '3aalaikumsalam, Ketik .help/.info/.donasi Contoh #help' ,MessageType.text);
 }
@@ -149,10 +147,10 @@ else if (text == 'Assalamualaikum'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
 }
 else if (text == 'p'){
-conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
+conn.sendMessage(id, 'Utamakan salam ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
 }
 else if (text == 'P'){
-conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
+conn.sendMessage(id, 'utamakan salam ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
 }
 else if (text == 'Halo'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
@@ -161,12 +159,12 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner XP-TN wa.me/+6289655478810' ,MessageType.text);
+conn.sendMessage(id, 'Owner PROF_ACC wa.me/+6281326977165' ,MessageType.text);
 }
-else if (text == 'Agung'){
-conn.sendMessage(id, 'Aku BOT nya XP-TN' ,MessageType.text);
+else if (text == 'PROF'){
+conn.sendMessage(id, 'Aku BOT nya ACC' ,MessageType.text);
 }
-else if (text == 'wenda'){
+else if (text == 'inisial S'){
 conn.sendMessage(id, 'pacar owner ihh' ,MessageType.text);
 }
 else if (text == 'bangsat'){
@@ -188,7 +186,7 @@ else if (text == 'Hai'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
 }
 else if (text == '.ttp'){
-conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6289655478810* ' ,MessageType.text);
+conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6281326977165* ' ,MessageType.text);
 }
 else if (text == 'Woi'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
@@ -230,13 +228,13 @@ else if (text == 'Cuy'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
 }
 else if (text == '.frendsowner'){
-conn.sendMessage(id, 'kawan1 iskandar wa.me/+60136670107' ,MessageType.text);
+conn.sendMessage(id, 'kawan1 iskandar wa.me/+6281326977165' ,MessageType.text);
 }
 else if (text == '.coowner'){
-conn.sendMessage(id, 'kawan2 testing script wa.me/+6282232931618' ,MessageType.text);
+conn.sendMessage(id, 'kawan2 testing script wa.me/+6281326977165' ,MessageType.text);
 }
 else if (text == '.groupbot'){
-conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/GDdd0I3WlF5LnMVifmS7rN' ,MessageType.text);
+conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/DaR5cRiEJsx0TFCowOTi6c' ,MessageType.text);
 }
 else if (text == '.tools1'){
 conn.sendMessage(id, ' *Menampilkan Fitur tools1!!!* ' ,MessageType.text);
@@ -925,7 +923,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, xp.xp(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, xp.xp(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 if (text == '.tools1'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -962,7 +960,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, xp1.xp1(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, xp1.xp1(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 if (text == '.tools2'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -999,7 +997,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, xp2.xp2(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, xp2.xp2(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 if (text == '.tools3'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1036,7 +1034,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, xp3.xp3(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, xp3.xp3(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 if (text == '.tools4'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1073,7 +1071,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, xp4.xp4(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, xp4.xp4(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 if (text == '.tools5'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1110,7 +1108,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, xp5.xp5(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, xp5.xp5(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 if (text == '.tools6'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1147,7 +1145,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, xp6.xp6(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, xp6.xp6(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 if (text == '.sellernomor'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1184,7 +1182,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, sellernomor.sellernomor(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, sellernomor.sellernomor(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 if (text == '.donasii'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1221,7 +1219,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donasii.donasii(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donasii.donasii(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '.donate'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1258,7 +1256,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donate.donate(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donate.donate(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '.donasi'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1295,7 +1293,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donate.donate(id, XPTN, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donate.donate(id, PROF, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '.DONATE'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1332,7 +1330,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donate.donate(id, XPTN, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donate.donate(id, PROF, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '.DONASI'){
   const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1369,7 +1367,7 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, donate.donate(id, XPTN, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, donate.donate(id, PROF, corohelp, tampilTanggal, tampilWaktu, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '.info'){
   const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
@@ -1406,34 +1404,34 @@ switch(bulan) {
 }
 var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + tahun;
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
-conn.sendMessage(id, info.info(id, XPTN, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
+conn.sendMessage(id, info.info(id, PROF, corohelp, tampilTanggal, tampilWaktu, instagram, nomer, aktif, groupwa, youtube) ,MessageType.text);
 }
 else if (text == '.foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
 else if (text == '.help'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_xptn' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾PROF-ACC👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/Profesor_acc' ,MessageType.text);
 }
 else if (text == '.tools1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_xptn' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾PROF-ACC👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/Profesor_acc' ,MessageType.text);
 }
 else if (text == '.menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_xptn' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾PROF-ACC👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/Profesor_acc' ,MessageType.text);
 }
 else if (text == '.tool2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_xptn' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾PROF-ACC👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/Profesor_acc' ,MessageType.text);
 }
 else if (text == '.tools3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_xptn' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾PROF-ACC👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/Profesor_acc' ,MessageType.text);
 }
 else if (text == '.tools4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_xptn' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾PROF-ACC👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/Profesor_acc' ,MessageType.text);
 }
 else if (text == '.tools5'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_xptn' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾PROF-ACC👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/Profesor_acc' ,MessageType.text);
 }
 else if (text == '.tools6'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_xptn' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾PROF-ACC👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/Profesor_acc' ,MessageType.text);
 }
 if (messageType == 'imageMessage')
    {
@@ -2261,7 +2259,7 @@ if (text.includes(".alay")){
 	})
 }
 
-//Tolonglah bro jangan di ubah ubah XP-TN
+//Tolonglah bro jangan di ubah ubah PROF-ACC
 
 
 })
