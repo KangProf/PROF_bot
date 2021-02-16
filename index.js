@@ -6,7 +6,7 @@
 * reupload izin anjg gua gua cape buat nya!!
 * ini script pribadi gua!!
 */
-const PROF = '💢PROF💢'; // Nama Bot Whatsapp
+const XPTN = '💢PROF💢'; // Nama Bot Whatsapp
 const instagram = 'https://instagram.com/Profesor_acc'; // Nama Instagramlu cok
 const nomer = 'https://Wa.me/+6281326977165'; // Nomor whatsapplu cok
 const aktif = 'Tergantung jaringan'; // Kapan bot lu aktif
